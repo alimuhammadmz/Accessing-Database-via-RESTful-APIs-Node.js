@@ -31,7 +31,7 @@ const checkBalController = async (req, res) =>{
         const result = checkBalance(id);
         res.send(result);
     }catch(err){
-        res.status(404).send({error : err});            //No such account exists in database
+        res.status(404).send({error : err});                //No such account exists in database
     }
 }
 
