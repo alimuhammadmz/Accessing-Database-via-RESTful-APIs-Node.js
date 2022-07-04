@@ -3,8 +3,8 @@ const {withDrawAmt, depositAmt, checkBal} = require("../Controller/transactionCo
 
 const router = express.Router();
 
-router.put('/withdraw', withDrawAmt);
-router.put('/deposit', depositAmt);
-router.get('/balance', checkBal);
+router.put('/withdraw/:id', withDrawAmt);
+router.put('/deposit/:id', depositAmt);
+router.get('/balance/:id', checkBal);
 
 module.exports.transactionRouter = router;
