@@ -1,14 +1,14 @@
 const customer = require('../Model/Schema/customer.schema');
 
-const withDraw = (req, res)=>{
+const withDraw = (amount)=>{
 
 }
 
-const depositAmount = (req, res)=>{
+const depositAmount = (amount)=>{
 
 }
 
-const checkBalance = (req, res)=>{
+const checkBalance = (id)=>{
 
 }
 
