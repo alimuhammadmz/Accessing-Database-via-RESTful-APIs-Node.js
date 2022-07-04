@@ -1,0 +1,19 @@
+{
+  "name": "qwerty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alimuhammadmz/Accessing-Database-via-RESTful-APIs-Node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alimuhammadmz/Accessing-Database-via-RESTful-APIs-Node.js/issues"
+  },
+  "homepage": "https://github.com/alimuhammadmz/Accessing-Database-via-RESTful-APIs-Node.js#readme"
+}
