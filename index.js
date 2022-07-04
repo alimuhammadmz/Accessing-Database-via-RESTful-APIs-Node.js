@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const express = require('express');
 const app = express();
 const dotenv = require('dotenv');
-const {transactionRouter} = require("/src/Routes/transactionRouter");
+const {transactionRouter} = require("./src/Routes/transactionRouter");
 
 app.use("/transaction", transactionRouter);
 
