@@ -5,6 +5,9 @@ const dotenv = require('dotenv');
 const {transactionRouter} = require("./src/Routes/transactionRouter");
 const {customerRouter} = require("./src/Routes/customerRouter");
 
+app.use(express.json()) // for parsing application/json
+app.use(express.urlencoded({ extended: true }))
+
 app.use("/transaction", transactionRouter);
 app.use("/customer", customerRouter);
 
