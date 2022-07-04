@@ -1,4 +1,4 @@
-const app = require('express');
+const customer = require('../Model/Schema/customer.schema');
 
 const withDraw = (req, res)=>{
 
