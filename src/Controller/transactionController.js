@@ -1,5 +1,4 @@
 const express = require('express')
-const Client = require('../Model/customer.schema');
 
 const {withDraw, depositAmount, checkBalance} = require("../Services/transactionService");
 
